@@ -35,6 +35,13 @@ a {
 	margin: 0 auto;
 }
 
+.box-container1230x{
+	max-width: 1230px;
+	height: 100%;
+	margin: 0 auto;
+    padding: 20px 0;
+}
+
 .flex-container {
     display: flex;
     height: 100%;
@@ -46,6 +53,9 @@ a {
 }
 .justify-content-space-between {
     justify-content: space-between;
+}
+.justify-content-space-around {
+    justify-content: space-around;
 }
 
 .flex-direction-column {
@@ -113,8 +123,9 @@ a {
 }
 
 .boxQR {
+    border: 1px solid rgba(255, 255, 255, 0.3);
     background: rgba(255, 255, 255, 0.05);
-    border-radius: 6px;
+    border-radius: 6px;  
 }
 
 .boxCommittee {
@@ -231,6 +242,10 @@ a {
     font-size: 48px;
 }
 
+.font-size-20 {
+    font-size: 20px;
+}
+
 .font-weight300 {
     font-weight: 300;
 }
@@ -281,6 +296,18 @@ a {
     border: 1px solid #3F23EB;
     border-radius: 4px;
     transition: 0.3s;
+}
+
+.button-full1 {
+    color: #FFFFFF;
+    padding: 10px 80px;
+    width: 201px;
+    max-height: 36px;
+    background: #3F23EB;
+    border: 1px solid #3F23EB;
+    border-radius: 4px;
+    transition: 0.3s;
+    margin-bottom: 30px;
 }
 
 .button-full:hover {
@@ -428,6 +455,9 @@ a {
 
      .marginTopMobile15 {
         margin-top: 15px;
+    }
+    .flex-wrap-container1 {
+        flex-wrap: wrap;
     }
 
     .select1 {
